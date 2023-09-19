@@ -8,7 +8,7 @@
 
 **Étape 1 : Initialisation**
 
-  Logs : 
+  logs : 
   ```pseudo
   logs = [
     {date: 2023-09-01 12:23, ip: "192.168.1.1", request: "GET /index.html", status: 200},
@@ -70,6 +70,10 @@
 Vous travaillez comme développeur pour un site web. Vous devez vérifier la force des mots de passe que les utilisateurs souhaitent utiliser.
 
 **Consignes** :
+```
+caractèresSpéciaux = ['&', '!', '#', '*', '$', '^', '@', '%']
+
+```
 
 1. Créez une fonction qui prend un mot de passe comme argument et retourne sa force sur une échelle de 1 à 5, où 1 est très faible et 5 est très fort.
 2. Les critères de force sont les suivants :
@@ -79,5 +83,6 @@ Vous travaillez comme développeur pour un site web. Vous devez vérifier la for
     - Niveau 4 : Lettres, chiffres et au moins un caractère spécial.
     - Niveau 5 : Plus de 12 caractères, lettres, chiffres et au moins un caractère spécial.
 3. Affichez un message à l'utilisateur selon la force du mot de passe.
+4. Testez votre fonction avec différents mots de passe et pour chaque mot de passe, afficher " "La force du mot de passe "..." est : "....
 
 ---
