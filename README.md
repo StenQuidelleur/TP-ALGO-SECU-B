@@ -72,7 +72,6 @@ Vous travaillez comme développeur pour un site web. Vous devez vérifier la for
 **Consignes** :
 ```
 caractèresSpéciaux = ['&', '!', '#', '*', '$', '^', '@', '%']
-
 ```
 
 1. Créez une fonction qui prend un mot de passe comme argument et retourne sa force sur une échelle de 1 à 5, où 1 est très faible et 5 est très fort.
