@@ -8,9 +8,7 @@
 
 **Étape 1 : Initialisation**
 
-- Créez une liste de logs simulés. 
-
-  Exemple : 
+  Logs : 
   ```pseudo
   logs = [
     {date: 2023-09-01 12:23, ip: "192.168.1.1", request: "GET /index.html", status: 200},
