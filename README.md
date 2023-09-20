@@ -64,6 +64,22 @@
 
 ---
 
+**Détecter des motifs répétitifs dans des requêtes**
+
+**Contexte** :
+Vous êtes un analyste en cybersécurité pour un site web. Vous suspectez une attaque automatisée sur votre site car vous voyez des motifs répétitifs dans les logs des requêtes HTTP. Vous décidez d'écrire un script pour détecter ces motifs.
+
+**Consignes** :
+
+1. Vous avez un tableau de chaînes de caractères, où chaque chaîne représente une URI de requête :
+```pseudo
+tableauRequêtes = ["/login", "/dashboard", "/login", "/login", "/profile", "/login"]
+```
+3. Pour chaque URI, vérifiez si l'URI suivante dans le tableau est identique.
+4. Si c'est le cas, marquez cette URI comme potentiellement malveillante en l'ajoutant à un tableau "tableauSuspects".
+
+---
+
 **Analyse de la force des mots de passe**
 
 **Contexte** :
@@ -83,5 +99,19 @@ caractèresSpéciaux = ['&', '!', '#', '*', '$', '^', '@', '%']
     - Niveau 5 : Plus de 12 caractères, lettres, chiffres et au moins un caractère spécial.
 3. Affichez un message à l'utilisateur selon la force du mot de passe.
 4. Testez votre fonction avec différents mots de passe et pour chaque mot de passe, afficher " "La force du mot de passe "..." est : "....
+
+---
+
+**Tentatives de connexion**
+
+**Contexte** :
+Imaginez que vous avez développé un système de connexion pour un site web. Pour des raisons de sécurité, vous souhaitez donner à l'utilisateur un maximum de 3 tentatives pour entrer le mot de passe correct. Si l'utilisateur échoue 3 fois de suite, il sera bloqué.
+
+**Consignes** :
+1. Définissez un mot de passe "secret".
+2. Demandez à l'utilisateur d'entrer le mot de passe.
+3. Si le mot de passe est correct, affichez un message de succès.
+4. Si le mot de passe est incorrect, donnez-lui une autre chance jusqu'à 3 tentatives, en disanant que le mot de passe est incorrecte et le nombre de tentatives restantes.
+5. Si après 3 tentatives le mot de passe est toujours incorrect, affichez un message indiquant que l'utilisateur est bloqué.
 
 ---
