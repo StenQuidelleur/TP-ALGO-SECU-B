@@ -26,12 +26,12 @@
 
 **Étape 3 : Fonctions d'analyse**
 
-- Créez une fonction pour extraire toutes les IP uniques du journal.
+- Créez une fonction pour extraire toutes les IP du journal (sans doublon).
   
   ```pseudo
-  fonction extraireIPUniques(logs):
+  fonction extraireIP(logs):
       ...
-      RETOURNER IPsUniques
+      RETOURNER IPs
   ```
 
 - Créez une fonction pour compter le nombre de requêtes par IP.
@@ -91,7 +91,7 @@ caractèresSpéciaux = ['&', '!', '#', '*', '$', '^', '@', '%']
 ```
 
 1. Créez une fonction qui prend un mot de passe comme argument et retourne sa force sur une échelle de 1 à 5, où 1 est très faible et 5 est très fort.
-2. Les critères de force sont les suivants :
+2. Les critères de force sont les suivants : (Faire une fonction pour chaque cas qui prend le mdp et qui retourne vrai ou faux)
     - Niveau 1 : Uniquement des lettres minuscules.
     - Niveau 2 : Lettres minuscules et majuscules.
     - Niveau 3 : Lettres et chiffres.
