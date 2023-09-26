@@ -91,7 +91,7 @@ caractèresSpéciaux = ['&', '!', '#', '*', '$', '^', '@', '%']
 ```
 
 1. Créez une fonction qui prend un mot de passe comme argument et retourne sa force sur une échelle de 1 à 5, où 1 est très faible et 5 est très fort.
-2. Les critères de force sont les suivants : (Faire une fonction pour chaque cas qui prend le mdp et qui retourne vrai ou faux)
+2. Les critères de force sont les suivants : (Faire une fonction pour chaque cas qui prend le mdp et qui retourne un booléen)
     - Niveau 1 : Uniquement des lettres minuscules.
     - Niveau 2 : Lettres minuscules et majuscules.
     - Niveau 3 : Lettres et chiffres.
