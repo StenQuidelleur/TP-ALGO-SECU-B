@@ -2,7 +2,7 @@
 
 ---
 
-**Analyseur de logs de serveur Web**
+**Analyseur de logs de serveur Web** (10 pts)
 
 *Vous êtes un administrateur de serveur web et, dans le cadre de vos responsabilités de cybersécurité, vous souhaitez analyser les logs de votre serveur pour détecter toute activité suspecte.*
 
@@ -64,7 +64,7 @@
 
 ---
 
-**Détecter des motifs répétitifs dans des requêtes**
+**Détecter des motifs répétitifs dans des requêtes** (2 pts)
 
 **Contexte** :
 Vous êtes un analyste en cybersécurité pour un site web. Vous suspectez une attaque automatisée sur votre site car vous voyez des motifs répétitifs dans les logs des requêtes HTTP. Vous décidez d'écrire un script pour détecter ces motifs.
@@ -80,7 +80,7 @@ tableauRequêtes = ["/login", "/dashboard", "/login", "/login", "/profile", "/lo
 
 ---
 
-**Analyse de la force des mots de passe**
+**Analyse de la force des mots de passe** (5 pts)
 
 **Contexte** :
 Vous travaillez comme développeur pour un site web. Vous devez vérifier la force des mots de passe que les utilisateurs souhaitent utiliser.
@@ -102,7 +102,7 @@ caractèresSpéciaux = ['&', '!', '#', '*', '$', '^', '@', '%']
 
 ---
 
-**Tentatives de connexion**
+**Tentatives de connexion** (3 pts)
 
 **Contexte** :
 Imaginez que vous avez développé un système de connexion pour un site web. Pour des raisons de sécurité, vous souhaitez donner à l'utilisateur un maximum de 3 tentatives pour entrer le mot de passe correct. Si l'utilisateur échoue 3 fois de suite, il sera bloqué.
